@@ -1,5 +1,5 @@
 img {
-
+    margin-top: 6em;
     width: 100%;
 }
 body {
@@ -11,14 +11,14 @@ p {
     margin: 0;
     font-size: 4em;
     text-align: center;
-    position: relative;
-
+    top: 40%;
 }
 .textbox{
-    margin-top: 37%;
-    margin-left: 10%;
-    position: absolute;
+    padding-top: 37%;
 
+}
+.sidecolor{
+    background-color: green;
 }
 .parallax{
     perspective: 1px;
@@ -28,7 +28,6 @@ p {
     perspective-origin-x: 100%;
 }
 
-}
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -38,7 +37,7 @@ p {
 }
 .background{
     position: absolute;
-    transform: translateZ(-3px) scale(2);
+    transform: translateZ(-3px) scale(2.2);
 
 }
 .front{
