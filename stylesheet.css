@@ -1,5 +1,5 @@
 img {
-    margin-top: 6em;
+    margin-top: 16em;
     width: 100%;
 }
 body {
@@ -7,15 +7,30 @@ body {
     color: white;
     outline: black;
 }
+header{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: blue;
+}
+.taras{
+    margin: 2em;
+}
+footer{
+    height: 5%;
+    position: absolute;
+    z-index: 1;
+    background-color: blue;
+}
 p {
     margin: 0;
-    font-size: 4em;
-    text-align: center;
+    font-size: 3em;
     top: 40%;
 }
 .textbox{
-    padding-top: 37%;
-
+    padding-top: 20%;
+    text-align: center;
 }
 .sidecolor{
     background-color: green;
@@ -27,7 +42,6 @@ p {
     overflow-y: auto;
     perspective-origin-x: 100%;
 }
-
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -36,9 +50,9 @@ p {
   left: 0;
 }
 .background{
+    padding-top: 12em;
     position: absolute;
     transform: translateZ(-3px) scale(2.2);
-
 }
 .front{
     transform: translateZ(0) scale(1);
@@ -46,13 +60,20 @@ p {
     height: 950px;
     width: 100%;
 }
-.front1{
-   
+.front1{ 
+
     background-color:red;
     opacity: 0.2; 
-
 }
 .front3{
     background-color:green;
     opacity: 0.2;
+}
+.logo{
+    text-align: left;
+    position: absolute;
+    padding: 1em;
+}
+.logoRight{
+    right:0em;
 }
