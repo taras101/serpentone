@@ -5,17 +5,18 @@ img {
 body {
     font-family: "Gradl";
     color: white;
-    outline: black;
 }
 header{
-    height: 10%;
+    height: 4em;
     width: 100%;
     position: absolute;
     z-index: 1;
     background-color: blue;
 }
 .taras{
-    margin: 2em;
+    font-size: 2em;
+    margin-top: 0.5em;
+    text-align: center;
 }
 footer{
     height: 5%;
@@ -27,6 +28,10 @@ p {
     margin: 0;
     font-size: 3em;
     top: 40%;
+}
+a{
+    text-decoration: none;
+    color: yellow;
 }
 .textbox{
     padding-top: 20%;
