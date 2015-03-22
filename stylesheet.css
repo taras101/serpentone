@@ -53,11 +53,12 @@ a{
   right: 0;
   bottom: 0;
   left: 0;
+  transform-origin-x: 100%;
 }
 .background{
     padding-top: 12em;
     position: absolute;
-    transform: translateZ(-3px) scale(2.2);
+    transform: translateZ(-3px) scale(3);
 }
 .front{
     transform: translateZ(0) scale(1);
