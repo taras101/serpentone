@@ -1,22 +1,26 @@
 img {
     margin-top: 16em;
     width: 100%;
+    display: block;
+    text-align: center;
 }
 body {
     font-family: "Gradl";
     color: white;
+    background-color: #C3DEDC;
 }
 header{
     height: 4em;
     width: 100%;
     position: absolute;
     z-index: 1;
-    background-color: blue;
+    background-color: #4B918D;
 }
 .taras{
     font-size: 2em;
     margin-top: 0.5em;
-    text-align: center;
+    text-indent: 1em;
+    color:#C4B052;
 }
 footer{
     height: 5%;
@@ -28,17 +32,24 @@ p {
     margin: 0;
     font-size: 3em;
     top: 40%;
+    color: #DEC868;
 }
 a{
     text-decoration: none;
-    color: yellow;
+    color: #DEC868;
+}
+a:hover{
+    color: #C3DEDC;
 }
 .textbox{
-    padding-top: 20%;
     text-align: center;
+}
+.sides{
+    margin: 50%;
 }
 .sidecolor{
     background-color: green;
+    height: 100%;
 }
 .parallax{
     perspective: 1px;
@@ -58,21 +69,21 @@ a{
 .background{
     padding-top: 12em;
     position: absolute;
-    transform: translateZ(-3px) scale(3);
+    transform: translateZ(-2px) scale(3.5);
 }
 .front{
     transform: translateZ(0) scale(1);
     position: relative;
-    height: 950px;
+    height: 1024px;
     width: 100%;
 }
-.front1{ 
-
+.front1{   
+    height: 100%;
     background-color:red;
     opacity: 0.2; 
 }
 .front3{
-    background-color:green;
+    background-color:purple;
     opacity: 0.2;
 }
 .logo{
