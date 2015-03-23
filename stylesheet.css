@@ -1,56 +1,70 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Scheherazade',Georgia, Times, "Times New Roman", serif;
+}
+
 img {
-    margin-top: 16em;
-    width: 100%;
-    display: block;
     text-align: center;
+
 }
 body {
-    font-family: "Gradl";
+    
     color: white;
-    background-color: #C3DEDC;
+    background-color: #DEC868;
+    /*background-color: #707070;*/
+    /*background-color: #C3DEDC;*/
 }
+
 header{
     height: 4em;
+    width: 100%;
+    z-index: 1;
+    background-color: #4B918D;
+    color: #C4B052; 
+}
+
+footer{
+    height: 5%;
     width: 100%;
     position: absolute;
     z-index: 1;
     background-color: #4B918D;
 }
-.taras{
-    font-size: 2em;
-    margin-top: 0.5em;
-    text-indent: 1em;
-    color:#C4B052;
+
+h1{
+    font-size: 3em;
+    margin: 0;
 }
-footer{
-    height: 5%;
-    position: absolute;
-    z-index: 1;
-    background-color: blue;
-}
+
 p {
     margin: 0;
-    font-size: 3em;
-    top: 40%;
+    font-size: 2em;
     color: #DEC868;
 }
+
 a{
     text-decoration: none;
     color: #DEC868;
 }
+
 a:hover{
     color: #C3DEDC;
 }
+
 .textbox{
     text-align: center;
 }
+
 .sides{
     margin: 50%;
 }
+
 .sidecolor{
     background-color: green;
     height: 100%;
 }
+
 .parallax{
     perspective: 1px;
     height: 100vh;
@@ -58,6 +72,7 @@ a:hover{
     overflow-y: auto;
     perspective-origin-x: 100%;
 }
+
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -66,31 +81,51 @@ a:hover{
   left: 0;
   transform-origin-x: 100%;
 }
+
 .background{
-    padding-top: 12em;
+    padding-top: 5em;
     position: absolute;
     transform: translateZ(-2px) scale(3.5);
+
 }
+.psand{
+    width: 100%;
+    text-align: center;
+}
+
 .front{
-    transform: translateZ(0) scale(1);
+    transform: translateZ(1) scale(1);
     position: relative;
     height: 1024px;
     width: 100%;
 }
+
 .front1{   
     height: 100%;
     background-color:red;
-    opacity: 0.2; 
+    opacity: 0.8; 
 }
+
 .front3{
     background-color:purple;
     opacity: 0.2;
 }
+
 .logo{
-    text-align: left;
-    position: absolute;
-    padding: 1em;
+    text-align: center;
+    padding: 0.2em;
+    overflow: hidden;
+    height: 100%;
 }
-.logoRight{
-    right:0em;
+
+.pure-menu-link {
+   color: #DEC868; 
+   font-size: 1.5em;
+}
+.pure-menu-active>.pure-menu-link, .pure-menu-link:hover, .pure-menu-link:focus{
+    background-color: #5BB0AB;
+}
+
+.logo_top{
+    text-indent: 1em;
 }
