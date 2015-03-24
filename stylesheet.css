@@ -9,7 +9,6 @@ img {
 
 }
 body {
-    
     color: white;
     background-color: #DEC868;
     /*background-color: #707070;*/
@@ -66,7 +65,7 @@ a:hover{
 }
 
 .parallax{
-    perspective: 1px;
+    perspective: 2px;
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -85,16 +84,17 @@ a:hover{
 .background{
     padding-top: 5em;
     position: absolute;
-    transform: translateZ(-2px) scale(3.5);
+    transform: translateZ(-1px) scale(2);
 
 }
 .psand{
     width: 100%;
     text-align: center;
+    display: block;
 }
 
 .front{
-    transform: translateZ(1) scale(1);
+    transform: translateZ(-2) scale(2);
     position: relative;
     height: 1024px;
     width: 100%;
@@ -103,7 +103,7 @@ a:hover{
 .front1{   
     height: 100%;
     background-color:red;
-    opacity: 0.8; 
+    opacity: 0.2; 
 }
 
 .front3{
