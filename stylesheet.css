@@ -9,8 +9,9 @@ img {
 
 }
 body {
+    overflow: auto;
     color: white;
-    background-color: #DEC868;
+    /*background-color: #DEC868;*/
     /*background-color: #707070;*/
     /*background-color: #C3DEDC;*/
 }
@@ -20,7 +21,8 @@ header{
     width: 100%;
     z-index: 1;
     background-color: #4B918D;
-    color: #C4B052; 
+    color: #97946b;
+    /*color: #C4B052;*/ 
 }
 
 footer{
@@ -102,12 +104,12 @@ a:hover{
 
 .front1{   
     height: 100%;
-    background-color:red;
+    background-color:olive;
     opacity: 0.2; 
 }
 
 .front3{
-    background-color:purple;
+    background-color:darkseagreen;
     opacity: 0.2;
 }
 
